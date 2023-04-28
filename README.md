@@ -7,7 +7,8 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+To run the code in the notebook, packages to be installed can be found in `requirements.txt` in project.
+The code should run with no issues using Python versions 3.*.
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -33,10 +34,13 @@ nd-blogpost
 ```
 
 Project is made of 2 main folders:
-`data` contains the datasets used during the preparation and analysis work. Analysis is using airbnb data only.
-`exploration` contains one notebook where the 3 questions are being addressed.
-`requirements.txt` contains the packages to be installed to run the notebook.
-`readme.md` describes the structure of the project.
+- `data` contains the datasets used during the preparation and analysis work. Analysis is using airbnb data only.
+
+- `exploration` contains one notebook where the 3 questions are being addressed.
+
+- `requirements.txt` at the root of project, contains the packages to be installed to run the notebook.
+
+- `readme.md` at the root of project, describes the structure of the project.
 
 
 ## Results<a name="results"></a>
