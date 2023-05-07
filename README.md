@@ -46,5 +46,6 @@ The main findings of the code can be found at the post available [here](https://
 
 For more information about:
 Linear regression model used for the analysis: [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
 Example data analysis using Stackoverflow data: [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711)
 
