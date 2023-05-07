@@ -12,8 +12,6 @@ The code should run with no issues using Python versions 3.*.
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interested in using Stack Overflow data from 2017 to better understand:
-
 Since we had the opportunity to have access to AirBnb data, I thought it would be interesting to dig into what makes a listing successful or not
 in the platform:
 
