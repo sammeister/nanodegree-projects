@@ -40,7 +40,11 @@ Project is made of 2 main folders:
 
 - `readme.md` at the root of project, describes the structure of the project.
 
-
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](https://medium.com/@sbencherif22/what-is-behind-the-secret-of-a-successful-listing-on-airbnb-38095fb02395).
+
+For more information about:
+Linear regression model used for the analysis: [here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+Example data analysis using Stackoverflow data: [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711)
+
