@@ -65,7 +65,6 @@ def save_data(df, database_filename):
     """
     Load dataframe into sqlite database
     param: df
-    return:
     """
 
     # instantiate sqlite DB engine

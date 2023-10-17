@@ -53,6 +53,7 @@ def tokenize(text):
     # remove non-text characters
     text_clean = re.sub(r'[^a-zA-Z]', " ", text)
 
+    # text normalization
     tokens = word_tokenize(text_clean)
     lemmatizer = WordNetLemmatizer()
 
@@ -82,7 +83,7 @@ def build_model():
 
     ])
 
-    # hyper params used for tuning
+    # tune model hyper param
     parameters = {
         'rfc__estimator__n_estimators': [100, 200]
     }
