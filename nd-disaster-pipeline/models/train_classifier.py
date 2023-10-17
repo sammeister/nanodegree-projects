@@ -114,7 +114,10 @@ def evaluate_model(model, X_test, Y_test, labels):
     for i, category in enumerate(labels):
         print(f"evaluation report for: {category}")
         evaluation_report = classification_report(Y_test[:, i], y_pred[:, i])
+        accuracy = (y_pred[:, i] == Y_test[:, i]).mean()
+
         print(evaluation_report)
+        print("accuracy_score:{}".format(accuracy))
 
 
 def save_model(model, model_filepath):
