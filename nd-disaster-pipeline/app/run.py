@@ -30,8 +30,11 @@ def tokenize(text):
 engine = create_engine('sqlite:///../data/project_disaster.db')
 df = pd.read_sql_table('data/project_disaster.db', engine)
 
+# commenting loading model - waiting for solution to too large file
 # load model
-model = joblib.load("../models/classifier_rfc.pkl")
+# model = joblib.load("../models/classifier_rfc.pkl")
+
+
 
 
 # index webpage displays cool visuals and receives user input text for model
