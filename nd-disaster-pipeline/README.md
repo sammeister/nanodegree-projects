@@ -14,12 +14,11 @@ The code should run with no issues using Python versions 3.*.
 ## Project Motivation<a name="motivation"></a>
 
 Along the project, we had the opportunity to positively contribute to communities in need for help.
-Indeed, being provided with [Appen] (https://appen.com/) data, we had access to thousands of text messages sent during disaster events by real persons.
+Indeed, being provided with [Appen](https://appen.com/) data, we had access to thousands of text messages sent during disaster events by real persons.
 Main purpose of the project is to deliver an ML model that will be consumed by an API used to classify messages.
 The project will be made of three main components
 
-
-1. web app accessible to emergency workers where they can input text message and get a classification for it into several categories.
+1. Web app accessible to emergency workers where they can input text message and get a classification for it into several categories.
 2. ETL pipeline responsible for pulling text messages data from a given source and wrangle it to best fit our ML model requirements 
 3. machine learning pipeline that consists in several steps carried out to build a robust and optimized ML model used to categorize text messages
 
@@ -37,21 +36,18 @@ nd-disaster-pipeline
 │   │── disaster_messages.csv
 │   │── process_data.py
 │   │── project_disaster.db
-├── exploration
 ├── models
 │   │── train_classifier.py
 ├── readme
 
 ```
 
-Project is made of 2 main folders:
+Project is made of 3 main folders:
 - `app` contains the Flask web app code.
 
 - `data` contains the source files(2) used in our ELT/ ML pipelines and the script processing and preparing the data used in our model.
 
 - `models` contains the script building and optimizing our model.
-
-- `requirements.txt` at the root of project, contains the packages to be installed to run the notebook.
 
 - `readme.md` at the root of project, describes the structure of the project.
 
