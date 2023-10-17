@@ -1,28 +1,21 @@
+import re
 import sys
-import pandas as pd
-from sqlalchemy import create_engine
 import pickle
-
-
+import pandas as pd
+from sklearn.pipeline import Pipeline
+from sqlalchemy import create_engine
 
 import nltk
 nltk.download(['punkt', 'wordnet'])
-import re
-import numpy as np
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
-from sklearn.pipeline import Pipeline
-from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import classification_report
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.multioutput import MultiOutputClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
-
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import GridSearchCV
-from sklearn.base import BaseEstimator, TransformerMixin
 
 
 def load_data(database_filepath):
