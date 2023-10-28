@@ -46,7 +46,7 @@ nd-capestone
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here]()
+The main findings of the code can be found at the post available [here](https://medium.com/@sbencherif22/to-churn-or-not-to-churn-that-is-the-question-4cde9b7525bb)
 
 
 ## References<a name="refs"></a>
