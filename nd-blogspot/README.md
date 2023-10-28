@@ -5,6 +5,7 @@
 3. [Project structure & file description](#files)
 4. [Results](#results)
 
+
 ## Installation <a name="installation"></a>
 
 To run the code in the notebook, packages to be installed can be found in `requirements.txt` in project.
@@ -51,4 +52,5 @@ and [here](https://realpython.com/linear-regression-in-python/)
 
 
 Example data analysis using Stackoverflow data: [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711)
+
 
