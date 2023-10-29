@@ -46,9 +46,20 @@ nd-capestone
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@sbencherif22/to-churn-or-not-to-churn-that-is-the-question-4cde9b7525bb)
-
+The main findings of the project can be found in the post available [here](https://medium.com/@sbencherif22/to-churn-or-not-to-churn-that-is-the-question-4cde9b7525bb)
+![img.png](img.png)
 
 ## References<a name="refs"></a>
 - Datasets provided by Udacity in collaboration with Sparkify. 
-- Kudos to Udacity mentors and students in FAQs for inspirations, suggestions on how to address the various challenges along this project.
+- Kudos to Udacity's mentors & students for their support and contribution along the project.
+- https://en.wikipedia.org/wiki/Statistical_classification
+- https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/#:~:text=A%20classification%20problem%20requires%20that,class%20or%20binary%20classification%20problem.
+- https://machinelearningmastery.com/types-of-classification-in-machine-learning/
+- https://en.wikipedia.org/wiki/Binary_classification
+- https://en.wikipedia.org/wiki/Logistic_regression
+- https://en.wikipedia.org/wiki/Random_forest
+- https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
+- https://www.analyticsvidhya.com/blog/2021/07/metrics-to-evaluate-your-classification-model-to-take-the-right-decisions/
+- https://machinelearningmastery.com/what-is-imbalanced-classification/#:~:text=Imbalanced%20classification%20refers%20to%20a,is%20instead%20biased%20or%20skewed
+- https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2
+- https://spark.apache.org/docs/latest/ml-tuning.html
