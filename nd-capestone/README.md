@@ -47,7 +47,9 @@ nd-capestone
 ## Results<a name="results"></a>
 
 The main findings of the project can be found in the post available [here](https://medium.com/@sbencherif22/to-churn-or-not-to-churn-that-is-the-question-4cde9b7525bb)
-![img.png](img.png)
+
+Summary of models resuls in table below:
+![](table_results.png)
 
 ## References<a name="refs"></a>
 - Datasets provided by Udacity in collaboration with Sparkify. 
